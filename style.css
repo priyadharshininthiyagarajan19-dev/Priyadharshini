@@ -1,0 +1,28 @@
+:root{
+ --bg:#4b5854; --card:#0b1220; --muted:#94a3b8; --accent:#6ee7b7;
+}
+body{margin:0; font-family:Arial, Helvetica, sans-serif; background:var(--bg); color:white;}
+.container{max-width:1000px; margin:auto; padding:20px;}
+header{display:flex; justify-content:space-between; align-items:center;}
+nav a {
+    color: #ddd;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  nav a.active {
+    color: #4fd1c5;
+    font-weight: bold;
+  }
+  
+.card{background:var(--card); padding:20px; border-radius:8px; margin:10px 0;}
+.primary{background:var(--accent); border:none; padding:10px; border-radius:6px; cursor:pointer;}
+.crop-img {
+  width: 200px;       /* change size as needed */
+  height: 200px;
+  object-fit: cover;  /* ensures the image fills the circle */
+  border-radius: 50%; /* makes it a circle */
+  border: 3px solid #fff; /* optional border */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* optional shadow */
+}
+
