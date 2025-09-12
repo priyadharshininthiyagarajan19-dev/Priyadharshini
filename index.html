@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Priyadharshini — Portfolio</title>
+  <meta name="description" content="Personal portfolio showcasing projects, skills, and contact information." />
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <img src="Priyadharshini.jpg" alt="Image of Priyadharshini" class="crop-img">
+        <div>
+          <div style="font-weight:900">Priyadharshini T</div>
+          <div class="muted" style="font-size:16px">B. Sc AI & ML</div>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="contact.html">Contact</a>
+        <button id="downloadResume" style="background:#4fd1c5;color:#fff;padding:12px 24px;border:none;border-radius:30px;font-size:1rem;font-weight:bold;cursor:pointer;box-shadow:0 4px 10px rgba(0,0,0,0.15);" onclick="window.location.href='resume.jpg'">Download CV</button>
+
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="card intro reveal">
+          <h1>Hi — I'm Priyadharshini</h1>
+          <p class="muted">Aspiring Artificial Intelligence and Machine Learning student passionate about building intelligent systems and solving real-world problems using data-driven approaches.</p>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="grid">
+        <div class="card full reveal">
+          <h2>About</h2>
+          <p class="muted">I'm a B. Sc Artificial Intelligence and Machine Learning Student</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="muted">© <span id="year"></span> Priyadharshini </div>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
